@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Meddon&display=swap');
+
+
+/* Base Styles */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #FCB5FF 0%, #EEFAB9 100%) no-repeat fixed;
+    font-family: "Bodoni Moda", serif;
+    color: #000000;
+        /* overflow: hidden; */
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    /* height: 100%; */
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: 'Meddon', cursive;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 0.95rem;
+    text-align: justify;
+    /* max-width: 640px; */
+    margin-bottom: 20px;
+}
+
+.name-header {
+    font-size: 3.8em;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+nav a,
+.connect-links a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin: 0 15px;
+}
+
+/* Layout for the Connect section links */
+.connect-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.connect-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.connect-links a {
+    color: #000000 !important;
+    text-decoration: none !important;
+    font-family: 'Bodoni Moda', serif !important;
+    font-size: 0.85rem !important;
+    opacity: 0.7 !important;
+    margin: 0 15px !important;
+}
+
+/* Zoom Styles */
+.img-zoom-container {
+    position: relative;
+    display: inline-block;
+    cursor: crosshair;
+      margin: 20px 0;
+}
+
+.img-zoom-container img {
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.3);
+    display: none;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.img-zoom-result {
+    position: absolute;
+        border: 1px solid #d4d4d4;
+    width: 300px;
+    height: 300px;
+    display: none;
+    z-index: 9999;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    top: 0;
+        pointer-events: none;
+    left: 100%;
+    margin-left: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallery-item {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-banner {
+    max-width: 520px;
+    height: auto;
+    display: block;
+}
+
+.gallery-caption {
+    font-size: 0.8rem;
+    text-align: center;
+    max-width: 220px;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+
+
+
