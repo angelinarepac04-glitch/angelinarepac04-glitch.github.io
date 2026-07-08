@@ -51,7 +51,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 0;
+    align-items: center;
+    padding: 60px 0;
 }
 .name-header {
     font-size: 3.8em;
@@ -177,7 +178,7 @@ nav a,
 }
 
 body {
-    padding-bottom: 120px;
+    padding-bottom: 150px;
 }
 
 
