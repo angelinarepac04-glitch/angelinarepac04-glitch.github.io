@@ -47,13 +47,13 @@ p {
     margin-bottom: 20px;
 }
 section {
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 .name-header {
     font-size: 3.8em;
