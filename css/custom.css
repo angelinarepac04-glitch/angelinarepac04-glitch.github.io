@@ -47,12 +47,8 @@ p {
     margin-bottom: 20px;
 }
 section {
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .name-header {
     font-size: 3.8em;
@@ -177,8 +173,10 @@ nav a,
     margin-top: 15px;
 }
 
-body {
-    padding-bottom: 150px;
-}
+
+
+
+
+
 
 
