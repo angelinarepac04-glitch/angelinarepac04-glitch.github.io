@@ -46,7 +46,10 @@ p {
     /* max-width: 640px; */
     margin-bottom: 20px;
 }
-
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .name-header {
     font-size: 3.8em;
     margin-bottom: 10px;
