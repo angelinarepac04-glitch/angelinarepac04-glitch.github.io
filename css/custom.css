@@ -45,11 +45,10 @@ p {
     text-align: justify;
     /* max-width: 640px; */
     margin-bottom: 20px;
+}
 section {
     padding-top: 50px;
-    padding-bottom: 120px; /* This creates the space for the nav */
-    display: block;
-    min-height: auto;
+    padding-bottom: 50px;
 }
 .name-header {
     font-size: 3.8em;
@@ -58,17 +57,15 @@ section {
 
 /* Navigation */
 nav {
-    position: fixed; /* Pins the nav to the screen */
+    position: fixed;
     bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
     display: flex;
     gap: 25px;
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: prevents text bleed-through */
-    padding: 10px 20px;
-    border-radius: 20px;
 }
+
 nav a {
     color: #000000;
     text-decoration: none;
@@ -175,6 +172,12 @@ nav a,
     font-style: italic;
     margin-top: 15px;
 }
+
+
+
+
+
+
 
 
 
