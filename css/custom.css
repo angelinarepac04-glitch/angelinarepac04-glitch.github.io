@@ -8,7 +8,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #FCB5FF 0%, #EEFAB9 100%) no-repeat fixed;
+    background-color: #faf8f4;
     font-family: "Bodoni Moda", serif;
     color: #000000;
         /* overflow: hidden; */
