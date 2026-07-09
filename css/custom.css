@@ -177,7 +177,10 @@ nav a {
     margin-top: 15px;
 }
 
-
+.bottom-spacer {
+    height: 100px; /* Adjust this height to match your banner height */
+    width: 100%;
+}
 
 
 
