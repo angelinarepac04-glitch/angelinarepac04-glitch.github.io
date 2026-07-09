@@ -58,20 +58,24 @@ section {
 /* Navigation */
 nav {
     position: fixed;
-    bottom: 25px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
     display: flex;
-    gap: 25px;
+    justify-content: center;
+    gap: 50px;
+    background-color: #000000;
+    padding: 20px 0;
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
     font-family: 'Bodoni Moda', serif;
-    font-size: 0.9rem;
-    opacity: 0.7;
+    font-size: 1rem;
+    opacity: 0.9;
+    letter-spacing: 1px;
 }
 
 
