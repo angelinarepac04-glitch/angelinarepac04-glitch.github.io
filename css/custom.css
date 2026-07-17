@@ -9,8 +9,8 @@ body {
   margin: 0;
   padding: 0;
   background: 
-    url('../img/art-supplies.png') left top repeat-y fixed, 
-    url('../img/art-supplies.png') right top repeat-y fixed, 
+    url('../img/art-supplies.png') left top no-repeat fixed, 
+    url('../img/art-supplies.png') right top no-repeat fixed, 
     linear-gradient(180deg, #FCB5FF 0%, #EEFAB9 100%) no-repeat fixed;
   background-size: 200px auto, 200px auto, cover;
   font-family: "Bodoni Moda", serif;
