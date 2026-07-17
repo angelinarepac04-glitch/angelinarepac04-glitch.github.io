@@ -16,9 +16,12 @@ body {
 }
 
 .container {
-    width: 650px; /* Change this from 960px to 800px */
+    width: 960px;
     margin: 0 auto;
     padding: 0 40px;
+    /* height: 100%; */
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
     box-sizing: border-box;
 }
 
@@ -40,8 +43,8 @@ p {
     line-height: 1.7;
     font-size: 0.95rem;
     text-align: justify;
-    max-width: 800px; /* Adjust this value to your preference */
-    margin: 0 auto 20px auto; /* This centers the narrow column */
+    /* max-width: 640px; */
+    margin-bottom: 20px;
 }
 section {
     padding-top: 50px;
