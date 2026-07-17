@@ -15,12 +15,12 @@ body {
 
 }
 
-.container {
-    width: 95%; /* This will make it stretch to almost the full width of any screen */
-    max-width: 1200px; /* Optional: This prevents it from getting too wide on massive monitors */
-    margin: 0 auto;
-    padding: 0 40px;
-    box-sizing: border-box;
+p {
+    line-height: 1.7;
+    font-size: 0.95rem;
+    text-align: justify;
+    max-width: 325px; /* This halves the previous 650px width */
+    margin: 0 auto 20px auto; 
 }
 
 h1,
