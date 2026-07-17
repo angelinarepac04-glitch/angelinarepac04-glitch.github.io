@@ -187,69 +187,6 @@ nav a {
     width: 100%;
 }
 
-.project-section {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-/* Creates the substantial visual gap before the new project starts */
-.ai-campaign-block {
-    margin-top: 100px; 
-}
-
-.project-section p {
-    font-family: "Bodoni Moda", serif;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #000000;
-    text-align: justify; /* This keeps it flush */
-    margin-top: 20px;
-    
-    /* Change these lines to match the standard width of your other paragraphs */
-    max-width: 100%; /* Important: let it fill the space first */
-    width: 640px;    /* OR whatever your standard paragraph width is */
-    margin: 20px auto 0 auto; /* Keeps it centered */
-}
-
-/* Centers the ad container and mirrors the LinkedIn banner's max-width */
-.project-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px; 
-    margin: 0 auto 30px auto;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-/* ADD THESE TWO LINES */
-    max-width: 640px;  <-- DELETE THIS LINE
-    margin: 20px auto 0 auto; <-- DELETE THIS LINE
-}
-
-.project-section p {
-    font-family: "Bodoni Moda", serif;
-    font-size: 0.95rem;
-    line-height: 1.7;
-    color: #000000;
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/* Mobile responsive adjustments */
-@media (max-width: 768px) {
-    .ai-campaign-block {
-        margin-top: 60px;
-    }
-    .project-section p {
-        text-align: justify;
-        font-size: 0.95rem;
-    }
-}
-
 
 
 
