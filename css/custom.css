@@ -5,14 +5,16 @@
 /* Base Styles */
 html,
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(180deg, #FCB5FF 0%, #EEFAB9 100%) no-repeat fixed;
-    font-family: "Bodoni Moda", serif;
-    color: #000000;
-        /* overflow: hidden; */
-
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: 
+    url('../img/art-supplies.png') left top repeat-y fixed, 
+    url('../img/art-supplies.png') right top repeat-y fixed, 
+    linear-gradient(180deg, #FCB5FF 0%, #EEFAB9 100%) no-repeat fixed;
+  background-size: 200px auto, 200px auto, cover;
+  font-family: "Bodoni Moda", serif;
+  color: #000000;
 }
 
 .container {
