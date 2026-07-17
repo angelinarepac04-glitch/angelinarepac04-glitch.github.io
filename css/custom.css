@@ -198,12 +198,11 @@ nav a {
     margin-top: 100px; 
 }
 
-.project-section h2 {
-    font-family: 'Meddon', cursive;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #000000;
-    text-align: center;
+.project-section {
+    width: 960px; /* Changed from max-width to match .container */
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box; /* Adds the exact same box calculation as your container */
 }
 
 /* Centers the ad container and mirrors the LinkedIn banner's max-width */
