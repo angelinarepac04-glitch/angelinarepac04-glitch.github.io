@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    width: 800px; /* Change this from 960px to 800px */
+    width: 650px; /* Change this from 960px to 800px */
     margin: 0 auto;
     padding: 0 40px;
     box-sizing: border-box;
