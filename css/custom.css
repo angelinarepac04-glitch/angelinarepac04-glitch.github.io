@@ -187,7 +187,61 @@ nav a {
     width: 100%;
 }
 
+.project-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
 
+/* Creates the substantial visual gap before the new project starts */
+.ai-campaign-block {
+    margin-top: 100px; 
+}
+
+.project-section h2 {
+    font-family: 'Meddon', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+/* Centers the ad container and mirrors the LinkedIn banner's max-width */
+.project-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px; /* Matches the exact width of your banner */
+    margin: 0 auto 30px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Subtle depth shadow */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.project-display-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-section p {
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .ai-campaign-block {
+        margin-top: 60px; /* Sightly smaller gap on mobile devices */
+    }
+    .project-section p {
+        text-align: left; /* Better readability on mobile viewports */
+    }
+}
 
 
 
