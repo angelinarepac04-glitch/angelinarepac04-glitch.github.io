@@ -222,8 +222,7 @@ nav a {
     width: 100%;
     height: auto;
     display: block;
-}
-
+    
 .project-section p {
     font-family: "Bodoni Moda", serif;
     font-size: 1.1rem;
@@ -231,6 +230,10 @@ nav a {
     color: #000000;
     text-align: justify;
     margin-top: 20px;
+    
+    /* ADD THESE TWO LINES */
+    max-width: 640px;  /* Limits the text width to match your standard paragraphs */
+    margin: 20px auto 0 auto; /* Keeps the limited text block centered */
 }
 
 /* Mobile responsive adjustments */
