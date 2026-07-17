@@ -222,36 +222,26 @@ nav a {
     width: 100%;
     height: auto;
     display: block;
-    
+}
+
 .project-section p {
     font-family: "Bodoni Moda", serif;
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 0.95rem;
+    line-height: 1.7;
     color: #000000;
     text-align: justify;
     margin-top: 20px;
-    margin-bottom: 20px; /* Matches the standard spacing of your other paragraphs */
-}
-    
-    /* Responsive width settings to match standard paragraphs */
-    max-width: 100%; 
-    width: 640px;
-    margin: 20px auto 0 auto;
-}
-    
-    /* ADD THESE TWO LINES */
-    max-width: 640px;  /* Limits the text width to match your standard paragraphs */
-    margin: 20px auto 0 auto; /* Keeps the limited text block centered */
+    margin-bottom: 20px;
 }
 
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
     .ai-campaign-block {
-        margin-top: 60px; /* Slightly smaller gap on mobile devices */
+        margin-top: 60px;
     }
     .project-section p {
-        text-align: justify; /* Keeps it clean and consistent with your desktop text */
-        font-size: 1rem; /* Marginally smaller font for tiny screens */
+        text-align: justify;
+        font-size: 0.95rem;
     }
 }
 
