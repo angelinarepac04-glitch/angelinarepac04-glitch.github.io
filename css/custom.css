@@ -198,11 +198,18 @@ nav a {
     margin-top: 100px; 
 }
 
-.project-section {
-    width: 960px; /* Changed from max-width to match .container */
-    margin: 0 auto;
-    padding: 0 40px;
-    box-sizing: border-box; /* Adds the exact same box calculation as your container */
+.project-section p {
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify; /* This keeps it flush */
+    margin-top: 20px;
+    
+    /* Change these lines to match the standard width of your other paragraphs */
+    max-width: 100%; /* Important: let it fill the space first */
+    width: 640px;    /* OR whatever your standard paragraph width is */
+    margin: 20px auto 0 auto; /* Keeps it centered */
 }
 
 /* Centers the ad container and mirrors the LinkedIn banner's max-width */
@@ -217,10 +224,9 @@ nav a {
     overflow: hidden;
 }
 
-.project-display-img {
-    width: 100%;
-    height: auto;
-    display: block;
+/* ADD THESE TWO LINES */
+    max-width: 640px;  <-- DELETE THIS LINE
+    margin: 20px auto 0 auto; <-- DELETE THIS LINE
 }
 
 .project-section p {
