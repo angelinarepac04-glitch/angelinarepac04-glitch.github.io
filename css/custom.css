@@ -231,6 +231,12 @@ nav a {
     text-align: justify;
     margin-top: 20px;
     
+    /* Responsive width settings to match standard paragraphs */
+    max-width: 100%; 
+    width: 640px;
+    margin: 20px auto 0 auto;
+}
+    
     /* ADD THESE TWO LINES */
     max-width: 640px;  /* Limits the text width to match your standard paragraphs */
     margin: 20px auto 0 auto; /* Keeps the limited text block centered */
