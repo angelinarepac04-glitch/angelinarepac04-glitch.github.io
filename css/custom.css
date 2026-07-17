@@ -230,6 +230,8 @@ nav a {
     color: #000000;
     text-align: justify;
     margin-top: 20px;
+    margin-bottom: 20px; /* Matches the standard spacing of your other paragraphs */
+}
     
     /* Responsive width settings to match standard paragraphs */
     max-width: 100%; 
