@@ -193,11 +193,10 @@ nav a {
 }
 
 .logo {
-    max-width: 300px; /* Increase this number to make it bigger */
+    max-width: 150px;
     height: auto;
     display: block;
-    margin: 0 auto; /* This keeps it centered */
-}
+
 
 
 
