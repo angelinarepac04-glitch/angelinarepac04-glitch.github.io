@@ -187,7 +187,16 @@ nav a {
     width: 100%;
 }
 
+.logo-container {
+    text-align: center;
+    margin: 30px 0;
+}
 
+.logo {
+    max-width: 150px;
+    height: auto;
+    display: inline-block;
+}
 
 
 
