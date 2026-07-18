@@ -195,7 +195,7 @@ nav a {
 .logo {
     max-width: 150px;
     height: auto;
-    display: block;
+    display: inline-block;
 }
 
 
