@@ -182,46 +182,23 @@ nav a {
     margin-top: 15px;
 }
 
+.bottom-spacer {
+    height: 100px; /* Adjust this height to match your banner height */
+    width: 100%;
+}
+
+.bottom-spacer {
+    height: 100px; /* Adjust this height to match your banner height */
+    width: 100%;
+}
+
 .logo-container {
     text-align: center;
-    margin: 30px 0 50px 0;
+    margin: 30px 0;
 }
 
-.photo-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.gallery-caption {
-    font-size: 0.8rem;
-    text-align: center;
-    max-width: 220px;
-    font-style: italic;
-    margin-top: 15px;
-    margin-bottom: 50px;
-}
-
-.portfolio-banner {
-    max-width: 520px;
+.logo {
+    max-width: 150px;
     height: auto;
-    display: block;
-    margin: 30px auto 30px auto;
+    display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
