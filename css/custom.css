@@ -163,17 +163,15 @@ nav a {
     align-items: center;
 }
 
-
 .portfolio-banner {
     max-width: 520px;
     height: auto;
     display: block;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .portfolio-banner:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    opacity: 0.85;
 }
 .gallery-caption {
     font-size: 0.8rem;
