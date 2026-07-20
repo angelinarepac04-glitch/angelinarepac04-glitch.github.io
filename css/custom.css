@@ -45,10 +45,11 @@ p {
     text-align: justify;
     /* max-width: 640px; */
     margin-bottom: 20px;
-}
+    
 section {
     padding-top: 50px;
     padding-bottom: 50px;
+    scroll-margin-top: 100px;
 }
 .name-header {
     font-size: 3.8em;
