@@ -39,6 +39,9 @@ h2 {
     margin-bottom: 10px;
     text-transform: lowercase;
 }
+h2:first-of-type {
+    margin-top: -10px;
+}
 
 p {
     line-height: 1.7;
