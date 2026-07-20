@@ -57,7 +57,7 @@ section {
     padding-bottom: 20px;
 }
 section:nth-of-type(5) {
-    margin-top: -20px;
+    margin-top: -65px; /* Pulls the digital portfolio section up higher toward the design work text */
 }
 .name-header {
     font-size: 3.8em;
