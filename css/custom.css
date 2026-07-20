@@ -202,7 +202,28 @@ nav a {
     display: inline-block;
 }
 
+@media (max-width: 768px) {
+    /* 1. Prevent text blocks from stretching edge-to-edge */
+    .container {
+        width: 100%;
+        padding: 40px 20px 20px 20px;
+    }
 
+    /* 2. Force cramped desktop columns to stack vertically on a phone */
+    .resume-layout, .profile-section, .main-content-section { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* 3. Ensure paragraphs are readable and not a dense wall */
+    p {
+        text-align: left;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+}
 
 
 
