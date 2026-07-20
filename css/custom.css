@@ -218,8 +218,6 @@ nav a {
     height: auto;
     display: inline-block;
 }
-
-
-#design-work {
-    margin-top: -20px;
+.portfolio-section {
+    margin-top: -120px;
 }
