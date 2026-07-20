@@ -192,7 +192,7 @@ nav a {
     margin-bottom: 15px;
 }
 .bottom-spacer {
-    height: 100px; /* Adjust this height to match your banner height */
+    height: 40px; /* Reduced from 100px to eliminate the massive gap at the bottom */
     width: 100%;
 }
 
