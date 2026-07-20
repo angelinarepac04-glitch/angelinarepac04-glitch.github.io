@@ -56,6 +56,9 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+section:nth-of-type(5) {
+    margin-top: -20px;
+}
 .name-header {
     font-size: 3.8em;
     margin-bottom: 10px;
