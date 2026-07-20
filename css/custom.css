@@ -49,6 +49,9 @@ p {
     text-align: justify;
     margin-bottom: 12px;
 }
+p:first-of-type {
+    margin-top: 25px;
+}
 section {
     padding-top: 20px;
     padding-bottom: 20px;
