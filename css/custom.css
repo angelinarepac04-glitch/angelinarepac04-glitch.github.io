@@ -167,8 +167,12 @@ nav a {
     max-width: 520px;
     height: auto;
     display: block;
+    transition: opacity 0.3s ease;
 }
 
+.portfolio-banner:hover {
+    opacity: 0.85;
+}
 .gallery-caption {
     font-size: 0.8rem;
     text-align: center;
@@ -197,8 +201,6 @@ nav a {
     height: auto;
     display: inline-block;
 }
-
-
 
 
 
