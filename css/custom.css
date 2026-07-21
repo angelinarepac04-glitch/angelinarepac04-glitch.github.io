@@ -221,3 +221,31 @@ nav a {
 .portfolio-section {
     margin-top: -120px;
 }
+.summary-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0; /* Set to 0 if you want the black columns to touch the text box, or add px if you want spacing */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent; 
+}
+
+/* Style the side columns to be solid black */
+.side-image {
+    background-color: background-color: #000000;
+    padding: 20px; /* Adjust padding inside the black columns if needed */
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+/* Keep the center text box floating cleanly over the ombre */
+.summary-text-box {
+    flex: 1;
+    max-width: 800px;
+    background: transparent; 
+    padding: 0 20px;
+}
